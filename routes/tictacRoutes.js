@@ -1,4 +1,4 @@
-var ticTacToeGameController = require("../controllers/tictactoegame");
+var ticTacToeGameController = require("../controllers/tictacgame");
 
 module.exports = function(app) {
   app.get("/tictactoegame", ticTacToeGameController.rendertictactoegame);
