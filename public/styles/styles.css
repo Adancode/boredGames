@@ -1,0 +1,278 @@
+#home-wrapper h1 {
+  color: #4a90e2;
+}
+
+#home-wrapper h2 {
+  color: #ff3c2c;
+}
+
+#home-wrapper h3 {
+  color: #ff8500;
+}
+
+
+
+/* Fix user-agent */
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  background-color:#404040;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.chatty {
+	margin: 20px auto; 
+	width: 600px;
+}
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #000;
+  margin-top:-20px;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 100%;
+}
+
+.login.page .usernameInput {
+  font-size: 100%;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+/* Chat page */
+
+.chat.page {
+  display: none;
+}
+
+/* Font */
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Messages */
+
+.chatArea {
+  padding-bottom: 2px;
+}
+
+.messages {
+  height: 430px;
+  /* margin: 20px 0 0 0; */
+  padding: 10px 20px 10px 20px;
+ 	list-style-type: none; 
+	border: 2px solid #000; border-radius: 5px;
+	width: 100%;  
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/* Input */
+
+.inputMessage {
+	border: 2px solid #000;
+	padding: 5px;
+	width: 100%;
+	margin-bottom: 1px;
+	margin-right: .5%;
+	border-radius: 5px;	
+	font-size: 80%;
+}
+
+form {
+	padding: 3px; 
+  /* width: 100%; */
+  /* float: right; */ 
+	margin: 2px 4px 4px 2px; 
+	border-radius: 5px;
+}
+
+.messageBody .username {
+	font-size: 80%
+	
+}
+
+/* .messages li:nth-child(odd) { 
+	background: #eee;
+} */
+
+.wrapper {
+  display: grid;
+	grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+  /* background-color: #d3cfcf; */
+  color: #444;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+/*Changes made saturday, new classes and whatnot*/
+.navbar-light{
+background-color: white;
+float:center;
+}
+.logout {
+  margin-left: 1275px;
+}
+.logoutBtn {
+  margin-top:-40px;
+  padding-bottom: 13px;
+}
+
+/*.navbar-brand {
+  margin-right:500px;
+  font-size: 150%;
+  font-color:#ffffff;
+}
+*/
+#gameNchat {
+  margin: -20px -10px 0px -10px;
+}
+
+#navass {
+  width: 100%;
+}
+
+#navbtns {
+  float: right;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.navbox {
+  /* background-color: #444; */
+  color: #fff;
+  border-radius: 5px;
+  /* padding: 5px; */
+  /* font-size: 150%; */
+  text-align: left;
+}
+/* 
+.tic{
+  color: #fff;
+}
+
+.matcher {
+  margin-left: 130px;
+
+}
+.snake {
+  margin-left: 170px;
+
+}
+.sneaky-snake {
+  margin-top: 27px;
+  margin-left: 100px;
+}
+.tic-tac {
+  margin-top: 27px;
+  margin-left: 100px;
+}
+.tac {
+  margin-top: 5px;
+  margin-left: 145px;
+}
+.match {
+   margin-top: 27px;
+  margin-left: 100px;
+} */
+
+.gamepre {
+  text-align: center;
+}
+
+.rightForm{
+  float: right;
+}
