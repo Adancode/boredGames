@@ -59,7 +59,7 @@ require("./routes/htmlRoutes")(app);
 require("./routes/apiRoutes")(app);
 require("./routes/matchgameRoutes")(app);
 require("./routes/snakegameRoutes")(app);
-require("./routes/tictacRoutes")(app);
+require("./routes/tttRoutes")(app);
 //load passport strategies
 require('./config/passport/passport.js')(passport,models.user);
 
