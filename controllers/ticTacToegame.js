@@ -1,5 +1,5 @@
 module.exports = {
-    renderTicTacToeGame: function(req, res) {
-      res.render("partials/ticTacToegame");
+    rendertictactoegame: function(req, res) {
+      res.render("partials/tictactoegame");
     }
   };
