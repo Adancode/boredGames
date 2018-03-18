@@ -1,19 +1,3 @@
-#home-wrapper h1 {
-  color: #4a90e2;
-}
-
-#home-wrapper h2 {
-  color: #ff3c2c;
-}
-
-#home-wrapper h3 {
-  color: #ff8500;
-}
-
-
-
-/* Fix user-agent */
-
 * { 
 	margin: 0; 
 	padding: 0; 
@@ -23,6 +7,7 @@
 html {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  background-color:#000;
 }
 
 html, input {
@@ -36,10 +21,12 @@ html, input {
     sans-serif;
 }
 
-html, body {
-  background-color:#404040;
-  margin: 0;
-  padding: 0;
+body {
+  background-color:#000;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ul {
@@ -239,11 +226,11 @@ float:center;
   /* font-size: 150%; */
   text-align: left;
 }
-/* 
+ 
 .tic{
   color: #fff;
 }
-
+/*
 .matcher {
   margin-left: 130px;
 
@@ -275,4 +262,27 @@ float:center;
 
 .rightForm{
   float: right;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 0 0 5px;
+}
+
+.bigT {
+  margin: 0 0 0 0;
+}
+
+#stage {
+  border: 1px outset black;
+  background-color: grey;
+  margin: 20px 0 0 100px;
+}
+
+#play{ 
+  margin: 5px 0 0 -146px;
+}
+
+#help{
+  margin: 5px 0 0 0;
 }

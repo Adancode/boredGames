@@ -4,16 +4,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="styles/style.css">    
 </head>
-<style>
-body {
-    background-color: #404040;
-}
-.button-play {
-    margin-right: 125px;
-    margin-left: -125px;
-}
-</style>
-
 <body>
   <nav id="navass" class="navbar">
   <div class="wrapper">
@@ -58,7 +48,7 @@ body {
         <form name=game>
             <table border=0>
                 <td>
-                    <table border=1>
+                    <table  class="bigT" border=1>
                         <tr>
                             <td>
                                 <a href="javascript:yourChoice('A')">
@@ -118,25 +108,25 @@ body {
                             <td>
                                 <input type=text size=5 name=you>
                             </td>
-                            <td class="tic">You</td>
+                            <td class="tic">&nbsp;&nbsp;You</td>
                         </tr>
                         <tr>
                             <td>
                                 <input type=text size=5 name=computer>
                             </td>
-                            <td class="tic">Computer</td>
+                            <td class="tic">&nbsp;&nbsp;Computer</td>
                         </tr>
                         <tr>
                             <td>
                                 <input type=text size=5 name=ties>
                             </td>
-                            <td class="tic">Ties</td>
+                            <td class="tic">&nbsp;&nbsp;Ties</td>
                         </tr>
                     </table>
                 </td>
             </table>
-            <input type=button value="Play Again" class="button-play btn" onClick="playAgain();"> &nbsp;&nbsp;
-            <input type=button value="Game Help" class="button-help btn" onClick="help();"> &nbsp;&nbsp;
+            <input type=button value="Play Again" id="play" class="button-play btn" onClick="playAgain();"> &nbsp;&nbsp;
+            <input type=button value="Game Help" id="help" class="button-help btn" onClick="help();">
         </form>
     </center>
     </div>
