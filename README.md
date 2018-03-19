@@ -22,7 +22,7 @@ You have to sign-up to get to the games and chat, but after that, it's annonymou
 - passport
 - passport-local
 - path
-- sequeliz
+- sequelize
 - socket.io
 
 ### Authors
